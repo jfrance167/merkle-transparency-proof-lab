@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256-rfc9162",
+  "log_id": "synthetic-log",
+  "heads": [
+    {
+      "size": 0,
+      "root_hex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "size": 3,
+      "root_hex": "1e3bf78132c1689cace35805ad9995cb5fac07d0117603b46e72036fe4be1910"
+    },
+    {
+      "size": 5,
+      "root_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931"
+    }
+  ]
+}

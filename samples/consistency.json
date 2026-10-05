@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256-rfc9162",
+  "log_id": "synthetic-log",
+  "kind": "consistency",
+  "old_size": 3,
+  "new_size": 5,
+  "path": [
+    "fed79e20428d1ba7860bd877d9ff35bcbfaa4f61f5495645a64b0ff8d14719cf",
+    "6cdff7d0cfe13eb6346642872eef7a3bf7b5b75f49c33eede30bf9a3de7f4aae",
+    "8cb46d860b37ca4ce98fdbc4c0c3ae64f31b3244dee2508aab2ad1c0a2988acc",
+    "7074762c51b7a46d725de39f9517f31961e4aac083f6b0a43f405aac9e015d48"
+  ]
+}

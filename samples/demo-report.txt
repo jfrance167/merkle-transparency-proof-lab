@@ -1,0 +1,58 @@
+MERKLE PROOF LAB
+{
+  "report_version": 1,
+  "anchor_authenticity_verified": false,
+  "limitation": "Anchors are separately supplied operator assertions, not authenticated by this tool. Valid relationships do not establish freshness, event truth/completeness, availability or absence of split views. Hash collision/second-preimage assumptions apply.",
+  "cases": [
+    {
+      "case": "inclusion-valid",
+      "status": "valid",
+      "relationship": "inclusion",
+      "reason": "indexed leaf matches supplied commitment",
+      "tree_size": 5,
+      "leaf_index": 1,
+      "leaf_hash_hex": "d4c81607e187e1f7b534ada5a0692b39703f5354ee589710281f056425fbf5af",
+      "anchor_root_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931"
+    },
+    {
+      "case": "inclusion-tampered",
+      "status": "invalid",
+      "relationship": "inclusion",
+      "reason": "root mismatch",
+      "tree_size": 5,
+      "leaf_index": 1,
+      "leaf_hash_hex": "2157628c40270601c917de23b49f0c5b0b6320b2acb6515b2a2425b60c607b55",
+      "anchor_root_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931"
+    },
+    {
+      "case": "consistency-growth",
+      "status": "valid",
+      "relationship": "consistency",
+      "reason": "earlier committed history is a prefix of later history",
+      "old_size": 3,
+      "new_size": 5,
+      "old_anchor_hex": "1e3bf78132c1689cace35805ad9995cb5fac07d0117603b46e72036fe4be1910",
+      "new_anchor_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931"
+    },
+    {
+      "case": "equal-positive-heads",
+      "status": "valid",
+      "relationship": "identity-no-growth",
+      "reason": "same positive-size commitment; no growth shown",
+      "old_size": 5,
+      "new_size": 5,
+      "old_anchor_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931",
+      "new_anchor_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931"
+    },
+    {
+      "case": "empty-prior",
+      "status": "unsupported",
+      "relationship": "consistency",
+      "reason": "empty prior tree supplies no meaningful history evidence",
+      "old_size": 0,
+      "new_size": 5,
+      "old_anchor_hex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_anchor_hex": "efc08e97e15fe29e53f3e10a45db7a129a8d737634cd08dea82b562e43ef1931"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "research_date": "2026-10-05",
+  "repository": "https://github.com/transparency-dev/merkle",
+  "revision": "fbbcd741c3d1c69d8498487baa8edc9e5824847c",
+  "license": "Apache-2.0; retain attribution/license and document adaptation before reuse",
+  "status": "Identified and inspected; not installed or executed; source bytes/hashes retained during approved implementation stage 1",
+  "fixtures": [
+    {
+      "path": "testdata/consistency/0/happy-path.json",
+      "git_blob_sha1": "db1fd04fe048908a00d68fe152d93b4be1d5d271",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/consistency/0/happy-path.json"
+    },
+    {
+      "path": "testdata/consistency/1/happy-path.json",
+      "git_blob_sha1": "7092acc2e365aaf3dd0b139789fdbfcc35de923e",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/consistency/1/happy-path.json"
+    },
+    {
+      "path": "testdata/consistency/2/happy-path.json",
+      "git_blob_sha1": "611166e6abbcb0432faad84222d7ea50ec30c835",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/consistency/2/happy-path.json"
+    },
+    {
+      "path": "testdata/consistency/3/happy-path.json",
+      "git_blob_sha1": "a4092fdc1d0b82c83af3f87684287f6d810bd772",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/consistency/3/happy-path.json"
+    },
+    {
+      "path": "testdata/consistency/4/happy-path.json",
+      "git_blob_sha1": "963a90eaa1f8aad6cf58fe41df209a35bc66443b",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/consistency/4/happy-path.json"
+    },
+    {
+      "path": "testdata/inclusion/0/happy-path.json",
+      "git_blob_sha1": "4975d9eebd08ef3417a43a010440203f3b8cbb6c",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/inclusion/0/happy-path.json"
+    },
+    {
+      "path": "testdata/inclusion/1/happy-path.json",
+      "git_blob_sha1": "ac4afcf849394b79ddcf79a3c7d9fa7093426133",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/inclusion/1/happy-path.json"
+    },
+    {
+      "path": "testdata/inclusion/2/happy-path.json",
+      "git_blob_sha1": "610e4257fe6b8bb877b7443a1926b0f9b516600e",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/inclusion/2/happy-path.json"
+    },
+    {
+      "path": "testdata/inclusion/3/happy-path.json",
+      "git_blob_sha1": "21e93a736305e084bdad7ea375325090fe2f4848",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/inclusion/3/happy-path.json"
+    },
+    {
+      "path": "testdata/inclusion/4/happy-path.json",
+      "git_blob_sha1": "4b9009603a0ad25c573f21810ec4bccfe3689413",
+      "url": "https://github.com/transparency-dev/merkle/blob/fbbcd741c3d1c69d8498487baa8edc9e5824847c/testdata/inclusion/4/happy-path.json"
+    }
+  ]
+}
