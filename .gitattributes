@@ -1,2 +1,10 @@
 * text=auto eol=lf
 tests/vectors/original/** -text
+
+# Preserve reviewed snapshot bytes across checkout platforms.
+/.github/dependabot.yml -text
+/.github/workflows/ci.yml -text
+/.gitignore -text
+/PUBLICATION.md -text
+/README.md -text
+/tests/vectors/manifest.json -text
